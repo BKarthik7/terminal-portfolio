@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { SiNetlify, SiReact, SiTailwindcss } from "react-icons/si";
+import { SiReact, SiTailwindcss } from "react-icons/si";
 
 export default function About() {
 	const techs = [
