@@ -18,7 +18,7 @@ export default function Bio() {
 		{
 			title: "LinkedIn",
 			Icon: SiLinkedin,
-			href: "https://www.patreon.com/dailywebcoding",
+			href: "https://www.linkedin.com/in/BKarthik7",
 			text: "@LinkedIn",
 		},
 	];
