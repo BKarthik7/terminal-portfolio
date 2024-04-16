@@ -13,13 +13,13 @@ export default function Bio() {
 			title: "LeetCode",
 			Icon: SiLeetcode,
 			href: "https://leetcode.com/BKarthik7/",
-			text: "BKarthik7",
+			text: "@BKarthik7",
 		},
 		{
 			title: "LinkedIn",
 			Icon: SiLinkedin,
 			href: "https://www.linkedin.com/in/BKarthik7",
-			text: "@LinkedIn",
+			text: "@BKarthik7",
 		},
 	];
 	return (
