@@ -26,7 +26,7 @@ export default function Bio() {
 		<div className="mt-2 mb-2 w-11/12 mx-auto">
 			<div className="flex items-center gap-3 mb-3 ">
 				<img
-					src="https://media.licdn.com/dms/image/D5603AQGgPX5iFUE1GQ/profile-displayphoto-shrink_400_400/0/1705855542353?e=1717027200&v=beta&t=EaPehs8Gc-xH7oZto6Zgkf-kNpr-uSKqS5QgF0GQHOU"
+					src="https://media.licdn.com/dms/image/D5603AQGgPX5iFUE1GQ/profile-displayphoto-shrink_400_400/0/1705855542353?e=1723075200&v=beta&t=9M27gXJq9aMwmZomJ0aR4vIZv1dUP-qmeiVF8iYiBSg"
 					alt="BKarthik7"
 					className="w-40 h-40 rounded-full border-2 border-yellow-200"
 				/>
