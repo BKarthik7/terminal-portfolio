@@ -1,3 +1,4 @@
+import React from 'react';
 export default function NotFound() {
 	return (
 		<div className="text-gray-300 mt-2 mb-2">
