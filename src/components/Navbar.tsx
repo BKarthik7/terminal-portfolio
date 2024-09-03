@@ -28,7 +28,7 @@ export default function Navbar() {
 				</div>
 				<div className="flex-1 mr-16 flex justify-center items-center">
 					<div className="flex items-center gap-1">
-						<VscTerminalBash className="text-xl" />
+						<VscTerminalBash className="text-sm" />
 						<h1 className="text-center">B Karthik/terminal_portfolio</h1>
 					</div>
 				</div>

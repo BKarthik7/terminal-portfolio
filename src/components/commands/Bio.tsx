@@ -39,10 +39,10 @@ export default function Bio() {
 				/>
 				<div>
 					<div className="flex items-center gap-1">
-						<h1 className="text-2xl">B Karthik</h1>
-						<GoVerified className="text-blue-500 text-2xl" />
+						<h1 className="text-xl">B Karthik</h1>
+						<GoVerified className="text-blue-500 text-xl" />
 					</div>
-					<p className="text-lg text-gray-400">Join the world 20 years ago.</p>
+					<p className="text-sm text-gray-400">Join the world 20 years ago.</p>
 				</div>
 			</div>
 			<p>
@@ -54,7 +54,7 @@ I will always be ready and looking forward to learning anything I am interested 
 				{links.map(({ Icon, text, href, title }, index) => {
 					return (
 						<div className="flex items-center gap-1 mt-3" key={index}>
-							<div className="text-lg flex items-center gap-1 text-yellow-200">
+							<div className="flex items-center gap-1 text-yellow-200 text-sm">
 								<Icon />
 								<h1>{title}</h1>
 							</div>

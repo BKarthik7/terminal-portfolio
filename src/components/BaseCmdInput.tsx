@@ -46,7 +46,7 @@ export default function BaseCmdInput({
 					<div className="h-1 w-4 bg-blue-600 translate-y-2 -translate-x-1"></div>
 				</div>
 				<div className="translate-y-2 -translate-x-3">
-					<GoTriangleRight className="text-2xl text-blue-500" />
+					<GoTriangleRight className="text-xl text-blue-500" />
 				</div>
 				<>{Children}</>
 			</div>

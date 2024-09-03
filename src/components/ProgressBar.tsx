@@ -23,7 +23,7 @@ export default function ProgressBar({
 		<div className="w-11/12 mx-auto mt-5 mb-5">
 			<div className={`${barWidth} flex justify-between mb-3`}>
 				<div className="flex gap-1 items-center">
-					<Icon className="text-3xl" />
+					<Icon className="text-xl" />
 					<h1>{text}</h1>
 				</div>
 				<h1>{percentageValue}</h1>

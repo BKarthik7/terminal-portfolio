@@ -15,3 +15,7 @@
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
 }
+
+.h-92{
+	height: 92vh;
+}
