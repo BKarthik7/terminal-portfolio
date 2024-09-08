@@ -2,6 +2,9 @@
 
 Welcome to my terminal-based portfolio! This project simulates a terminal interface where users can interact with commands to explore my personal information, skills, and projects. The UI is built using React and styled with TailwindCSS, giving it a retro terminal look and feel.
 
+![Screenshot](https://github.com/user-attachments/assets/15a750df-5372-4ef9-8a09-8e7042849ed7)
+
+
 ## Features
 
 - **Command Line Interface**: Interact with the portfolio through command-line style inputs.
