@@ -1,51 +1,59 @@
-# Getting Started with Create React App
+# Terminal Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/be284e91-4d56-4c0d-a641-31e5b986422b/deploy-status)](https://app.netlify.com/sites/stupendous-pony-ebdd1b/deploys)
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my terminal-based portfolio! This project simulates a terminal interface where users can interact with commands to explore my personal information, skills, and projects. The UI is built using React and styled with TailwindCSS, giving it a retro terminal look and feel.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Command Line Interface**: Interact with the portfolio through command-line style inputs.
+- **Lazy Loaded Background Image**: The background image is loaded efficiently using lazy loading.
+- **Command History**: Navigate through previously entered commands using the up/down arrow keys.
+- **Responsive UI**: Designed for desktop use, with a mobile warning for optimal viewing experience.
+- **React Components**: Modular structure with custom command inputs, status indicators, and navbar.
+  
+## Tech Stack
 
-### `npm start`
+- **React**: Component-based UI library for building the interface.
+- **TailwindCSS**: Utility-first CSS framework for styling.
+- **React Icons**: Used for terminal-style icons.
+- **React Lazy Load Image**: For efficient lazy loading of the background image.
+  
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To get started with this project locally, follow the steps below:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+```bash
+   git clone https://github.com/BKarthik7/terminal-portfolio.git
+```
+2. Navigate into the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  cd terminal-portfolio
+```
+3. Install dependencies:
 
-### `npm run build`
+```bash
+  npm install
+```
+4. Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm start
+```
+5. Open the app in your browser:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+start http://localhost:3000
+```
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once the app is running, you will be presented with a terminal-like interface where you can interact by entering various commands such as:
 
-### `npm run eject`
+- ``help``: Lists available commands.
+- ``bio``: Displays personal information.
+- ``skills``: Lists programming skills.
+- ``projects``: Displays a list of my projects.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-# Deployment
-
-[Click me for a overview of Website](https://bkarthik7.github.io/terminal-portfolio/)
+## Contributing
+If you'd like to contribute to this project, feel free to submit a pull request or open an issue with suggestions. Contributions are welcome!
