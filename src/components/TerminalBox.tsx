@@ -3,9 +3,10 @@ import renderCmd from "../utils/renderCmd";
 import CmdUserInput from "./CmdUserInput";
 import EnteredCmd from "./EnteredCmd";
 import TodayDate from "./TodayDate";
-import Help from "./commands/Help";
 import Navbar from "./Navbar";
 import Welcome from "./commands/Welcome";
+import Bio from "./commands/Bio";
+import Help from "./commands/Help";
 
 export default function TerminalBox() {
 	const [enteredCmd, setEnteredCmd] = useState([
@@ -15,10 +16,15 @@ export default function TerminalBox() {
 			time: new Date().toLocaleTimeString(),
 		},
 		{
+			cmd: "bio",
+			Component: Bio,
+			time: new Date().toLocaleTimeString(),
+		},
+		{
 			cmd: "help",
 			Component: Help,
 			time: new Date().toLocaleTimeString(),
-		},
+		}
 	]);
 	const dummyRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 	useEffect(() => {
