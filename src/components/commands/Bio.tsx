@@ -42,7 +42,7 @@ export default function Bio() {
 						<h1 className="text-xl">B Karthik</h1>
 						<GoVerified className="text-blue-500 text-xl" />
 					</div>
-					<p className="text-sm text-gray-400">Join the world 20 years ago.</p>
+					<p className="text-sm text-gray-400">Entered the world {new Date().getFullYear() - 2004} years ago.</p>
 				</div>
 			</div>
 			<p>
