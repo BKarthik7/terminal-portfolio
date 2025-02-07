@@ -33,7 +33,7 @@ export default function Bio() {
 		<div className="mt-2 mb-2 w-11/12 mx-auto">
 			<div className="flex items-center gap-3 mb-3 ">
 				<img
-					src="https://media.licdn.com/dms/image/v2/D5603AQGgPX5iFUE1GQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705855542353?e=1730937600&v=beta&t=UNvkWsX5y_3uRCZX76gU293bvo2F6iCXNZmi4_NFkZs"
+					src="/terminal-portfolio/BKarthik.png"
 					alt="BKarthik7"
 					className="w-40 h-40 rounded-full border-2 border-yellow-200"
 				/>
